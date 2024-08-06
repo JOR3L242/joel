@@ -1,0 +1,49 @@
+body {
+    color:rgb(252, 252, 252);
+    background: rgba(41, 65, 92, 0.397);
+    font-family: "Varela Round", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(2, 1, 1);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(216, 27, 13);
+}
+
+.inicio {
+    
+    background: rgb(0 0 0 / 61%);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 20px;
+}
+.video {
+    margin-right: 10px;
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 300px
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 5px solid gold;
+}
